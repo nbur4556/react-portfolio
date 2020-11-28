@@ -1,0 +1,28 @@
+nav{
+    display: flex;
+    flex-direction: row;
+
+    padding: 1em;
+
+    background-color: grey;
+}
+
+nav ul{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+nav li{
+    margin: 0 2em;
+    list-style-type: none;
+}
+
+nav h1{
+    margin: 0 2em;
+}
+
+nav a{
+    color: white;
+    text-decoration: none;
+}

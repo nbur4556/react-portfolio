@@ -1,5 +1,8 @@
+// Components
+import Header from './components/Header.js';
+
 function App() {
-  return (<div>Hello Portfolio</div>);
+  return (<Header />);
 }
 
 export default App;
