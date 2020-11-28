@@ -1,6 +1,9 @@
 nav{
     display: flex;
     flex-direction: row;
+
+    padding: 1em;
+
     background-color: grey;
 }
 
