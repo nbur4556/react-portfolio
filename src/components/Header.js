@@ -1,3 +1,5 @@
+import '../stylesheets/header.css';
+
 const Header = () => {
     return (
         <nav>
