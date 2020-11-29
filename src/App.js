@@ -11,10 +11,11 @@ import Header from './components/Header.js';
 function App() {
   return (
     <article>
-      <Header />
-
       {/* Routing */}
       <BrowserRouter>
+
+        {/* Navigation Bar */}
+        <Header />
 
         {/* Landing Page */}
         <Route exact path="/">
