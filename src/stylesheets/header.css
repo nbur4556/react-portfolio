@@ -22,7 +22,7 @@ nav h1{
     margin: 0 2em;
 }
 
-nav a{
+nav .pagelink{
     color: white;
     text-decoration: none;
 }
