@@ -9,7 +9,29 @@ import Contact from './components/pages/Contact.js';
 import Header from './components/Header.js';
 
 function App() {
-  return (<Header />);
+  return (
+    <article>
+      <Header />
+
+      {/* Routing */}
+      <BrowserRouter>
+
+        {/* Landing Page */}
+        <Route exact path="/">
+          <AboutMe />
+        </Route>
+        {/* Portfolio Page */}
+        <Route exact path="/portfolio">
+          <Portfolio />
+        </Route>
+        {/* Contact Page */}
+        <Route exact path="/contact">
+          <Contact />
+        </Route>
+
+      </BrowserRouter>
+    </article>
+  );
 }
 
 export default App;
