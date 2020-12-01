@@ -1,3 +1,4 @@
+import React from 'react';
 import { BrowserRouter, Route } from 'react-router-dom';
 
 // Pages
@@ -7,6 +8,7 @@ import Contact from './pages/Contact.js';
 
 // Components
 import Header from './components/Header.js';
+import Footer from './components/Footer.js';
 
 function App() {
   return (
@@ -31,6 +33,8 @@ function App() {
         </Route>
 
       </BrowserRouter>
+
+      <Footer />
     </article>
   );
 }
