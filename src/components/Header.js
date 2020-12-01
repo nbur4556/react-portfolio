@@ -2,7 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 
 // Assets
-import '../stylesheets/header.css';
+import '../stylesheets/navbars.css';
 import resume from '../assets/web-dev-resume.pdf';
 
 const Header = () => {
