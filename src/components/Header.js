@@ -7,7 +7,7 @@ import resume from '../assets/web-dev-resume.pdf';
 
 const Header = () => {
     return (
-        <nav>
+        <nav className="navbar">
             {/* Main Link to Landing Page */}
             <Link className="pagelink" to="/"><h1>Nick Burt</h1></Link>
             <ul>

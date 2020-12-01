@@ -1,4 +1,4 @@
-nav, section{
+.navbar{
     display: flex;
     flex-direction: row;
 
@@ -7,22 +7,22 @@ nav, section{
     background-color: grey;
 }
 
-ul{
+.navbar h1{
+    margin: 0 2em;
+}
+
+.navbar ul{
     display: flex; 
     flex-direction: row;
     align-items: center;
 }
 
-li{
+.navbar li{
     margin: 0 2em;
     list-style-type: none;
 }
 
-h1{
-    margin: 0 2em;
-}
-
-.pagelink{
+.navbar .pagelink{
     color: white;
     text-decoration: none;
 }
