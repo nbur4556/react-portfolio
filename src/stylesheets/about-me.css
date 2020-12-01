@@ -1,0 +1,18 @@
+.about-page{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+
+.about-page img{
+    grid-column: 1 / span 1;
+    grid-row: 1 / span 2;
+}
+
+.about-page h1{
+    grid-row: 2 / span 1;
+}
+
+.about-page .message{
+    grid-row: 1 / span 1;
+}   
