@@ -3,8 +3,8 @@ import React from 'react';
 const ProjectPreview = props => {
     return (
         <section>
-            ProjectPreview
-
+            <h1>{props.projectTitle}</h1>
+            <p>{props.projectDescription}</p>
             <img src={props.imageSrc} alt={props.imageAltText} />
         </section>
     )
