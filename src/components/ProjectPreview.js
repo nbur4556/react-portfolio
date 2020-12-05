@@ -7,6 +7,8 @@ const ProjectPreview = props => {
             <div>
                 <h1>{props.projectTitle}</h1>
                 <p>{props.projectDescription}</p>
+                <a href={props.deployLink} target="_blank" rel="noreferrer">Page</a>
+                <a href={props.repoLink} target="_blank" rel="noreferrer">Repository</a>
             </div>
 
             <img src={props.imageSrc} alt={props.imageAltText} />
