@@ -1,20 +1,25 @@
 import React from 'react';
 
+// Component
+import TextBox from '../components/TextBox.js';
+
 const Contact = () => {
     return (
         <section>
             {/* Contact Form */}
-            <form>
-                <label>Name</label>
-                <input type="text" />
-                <label>Email Address</label>
-                <input type="text" />
-                <label>Message</label>
-                <textarea></textarea>
-                <button type="submit">Submit</button>
+            <TextBox>
+                <form>
+                    <label>Name</label>
+                    <input type="text" />
+                    <label>Email Address</label>
+                    <input type="text" />
+                    <label>Message</label>
+                    <textarea></textarea>
+                    <button type="submit">Submit</button>
 
-                <p>Note: The contact form does not yet work. Please use the contact details.</p>
-            </form>
+                    <p>Note: The contact form does not yet work. Please use the contact details.</p>
+                </form>
+            </TextBox>
 
             {/* Contact Details */}
             <section>
