@@ -5,10 +5,16 @@
     padding: 1em;
 
     background-color: var(--main-dark);
+    
 }
 
 .navbar h1{
     margin: 0 2em;
+
+    font-family: 'Oxygen', sans-serif;
+    font-size: 2rem;
+
+    color: var(--main-white);
 }
 
 .navbar ul{
@@ -19,6 +25,11 @@
 
 .navbar li{
     margin: 0 2em;
+
+    font-family: 'Oxygen', sans-serif;
+    font-size: 1.3rem;
+
+    color: var(--main-white);
     list-style-type: none;
 }
 
