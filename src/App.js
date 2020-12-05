@@ -1,6 +1,8 @@
 import React from 'react';
 import { BrowserRouter, Route } from 'react-router-dom';
 
+import './stylesheets/main-style.css';
+
 // Pages
 import AboutMe from './pages/AboutMe.js';
 import Portfolio from './pages/Portfolio.js';
