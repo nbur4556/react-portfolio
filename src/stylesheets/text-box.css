@@ -1,0 +1,6 @@
+.textBox{
+    padding: 2rem;
+
+    background-color: var(--main-secondary);
+    color: var(--main-white);
+}

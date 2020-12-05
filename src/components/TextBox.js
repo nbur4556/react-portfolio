@@ -1,4 +1,5 @@
 import React from 'react';
+import '../stylesheets/text-box.css';
 
 const TextBox = props => {
     return (
