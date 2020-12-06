@@ -23,7 +23,7 @@ const Contact = () => {
             </TextBox>
 
             {/* Contact Details */}
-            <section>
+            <section className="contact-details">
                 <h2>Contact Details</h2>
                 <p>Email - nbur4556@gmail.com</p>
                 <p>Github - https://github.com/nbur4556</p>
