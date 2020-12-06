@@ -24,3 +24,8 @@ label, button{
     font-family: 'Puritan', sans-serif;
     font-size: 1.2rem;
 }
+
+a{
+    color: var(--main-accent);
+    text-decoration: none;
+}
