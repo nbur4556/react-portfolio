@@ -4,25 +4,45 @@
     height: 93vh;
 }
 
+/* Form */
 .contact-page form{
     display: flex;
     flex-direction: column;
     width: 66vw;
 }
 
-.contact-page form input{
-    margin: 1rem 0;
+.contact-page form label, .contact-page form p{
+    margin: 1rem 5rem;
+}
+
+.contact-page form input, .contact-page form textarea{
+    margin: 0 5rem;
     padding: 0.5rem;
 }
 
 .contact-page form textarea{
-    margin: 1rem 0;
-    padding: 0.5rem;
     height: 5rem;
 }
 
 .contact-page form button{
-    margin: 1rem 0;
+    margin: 2rem 5rem;
     padding: 1rem;
     width: 10rem;
+}
+
+/* Contact Details */
+
+.contact-details{
+    display: flex;
+    flex-direction: column;
+
+    margin: 3rem;
+}
+
+.contact-details{
+    font-size: 1.5rem;
+}
+
+.contact-details p{
+    margin: 1rem 0;
 }
