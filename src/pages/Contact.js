@@ -1,11 +1,12 @@
 import React from 'react';
+import '../stylesheets/contact.css';
 
 // Component
 import TextBox from '../components/TextBox.js';
 
 const Contact = () => {
     return (
-        <section>
+        <section className="contact-page">
             {/* Contact Form */}
             <TextBox>
                 <form>

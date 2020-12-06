@@ -1,0 +1,6 @@
+.contact-page{
+    display: flex;
+    flex-direction: row;
+
+    height: 93vh;
+}
