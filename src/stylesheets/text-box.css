@@ -4,8 +4,3 @@
     background-color: var(--main-secondary);
     color: var(--main-white);
 }
-
-.textBox a{
-    color: var(--main-accent);
-    text-decoration: none;
-}

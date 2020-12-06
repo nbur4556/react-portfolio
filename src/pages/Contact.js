@@ -1,11 +1,12 @@
 import React from 'react';
+import '../stylesheets/contact.css';
 
 // Component
 import TextBox from '../components/TextBox.js';
 
 const Contact = () => {
     return (
-        <section>
+        <section className="contact-page">
             {/* Contact Form */}
             <TextBox>
                 <form>
@@ -22,11 +23,11 @@ const Contact = () => {
             </TextBox>
 
             {/* Contact Details */}
-            <section>
+            <section className="contact-details">
                 <h2>Contact Details</h2>
-                <p>Email - nbur4556@gmail.com</p>
-                <p>Github - https://github.com/nbur4556</p>
-                <p>Linked In - https://www.linkedin.com/in/nick-burt/</p>
+                <a href="mailto:nbur4556@gmail.com" target="_blank" rel="noreferrer">nbur4556@gmail.com</a>
+                <p>Github - <a href="https://github.com/nbur4556" target="_blank" rel="noreferrer">github.com/nbur4556</a></p>
+                <p>Linked In - <a href="https://www.linkedin.com/in/nick-burt/" target="_blank" rel="noreferrer">linkedin.com/in/nick-burt/</a></p>
             </section>
         </section>
     );
