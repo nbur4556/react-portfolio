@@ -43,6 +43,6 @@
     font-size: 1.5rem;
 }
 
-.contact-details p{
+.contact-details p, .contact-details a{
     margin: 1rem 0;
 }
