@@ -40,6 +40,16 @@
     color: var(--main-dark);
 }
 
-.about-page .message{
+.about-page .textBox{
     grid-row: 1 / span 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
 }   
+
+.about-page .textBox p{
+    width: 60%;
+    margin: 1rem;
+    font-family: 'Puritan', sans-serif;
+    font-size: 1.3rem;
+}
