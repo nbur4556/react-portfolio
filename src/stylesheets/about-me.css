@@ -1,7 +1,7 @@
 .about-page{
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 3fr 4fr;
+    grid-template-rows: 5fr 4fr;
 }
 
 .image-container{
@@ -35,7 +35,7 @@
     align-self: center;
 
     text-align: center;
-    font-size: 3.5rem;
+    font-size: 4rem;
 
     color: var(--main-dark);
 }
