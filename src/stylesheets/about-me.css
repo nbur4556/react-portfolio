@@ -4,16 +4,32 @@
     grid-template-rows: 1fr 1fr;
 }
 
-.about-page img{
+.about-page .image-container{
     grid-column: 1 / span 1;
     grid-row: 1 / span 2;
 
+    height: 93vh;
+    overflow:hidden;
+}
+
+.about-page img{
+    position: relative;
+    bottom: -3rem;
+    left: -3rem;
+
     transform: scaleX(-1);
-    width: 70%;
+    width: 50rem;
 }
 
 .about-page h1{
     grid-row: 2 / span 1;
+    justify-self: center;
+    align-self: center;
+
+    text-align: center;
+    font-size: 3.5rem;
+
+    color: var(--main-dark);
 }
 
 .about-page .message{
