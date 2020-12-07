@@ -7,6 +7,9 @@
 .about-page img{
     grid-column: 1 / span 1;
     grid-row: 1 / span 2;
+
+    transform: scaleX(-1);
+    width: 70%;
 }
 
 .about-page h1{
