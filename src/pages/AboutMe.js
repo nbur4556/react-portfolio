@@ -12,7 +12,10 @@ const AboutMe = () => {
         <section className="about-page">
             <h1>Hi, I'm Nick, and I am a Full Stack Web Developer.</h1>
 
-            <div className="image-container"><img src={profPic} alt="My profile" /></div>
+            <div className="image-container">
+                <div className="accent-box"></div>
+                <img src={profPic} alt="My profile" />
+            </div>
 
             <TextBox className="message">
                 <p>I am a full stack developer based in Austin Texas. I have a passion in creating beautiful and responsive web applications,

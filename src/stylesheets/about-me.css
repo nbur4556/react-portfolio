@@ -4,7 +4,7 @@
     grid-template-rows: 1fr 1fr;
 }
 
-.about-page .image-container{
+.image-container{
     grid-column: 1 / span 1;
     grid-row: 1 / span 2;
 
@@ -12,13 +12,21 @@
     overflow:hidden;
 }
 
-.about-page img{
+.image-container img{
     position: relative;
     bottom: -3rem;
     left: -3rem;
 
     transform: scaleX(-1);
     width: 50rem;
+}
+
+.image-container .accent-box{
+    position: absolute;
+    bottom: .5rem;
+    width: 36rem;
+    height: 40rem;
+    background-color: var(--main-accent);
 }
 
 .about-page h1{
