@@ -10,6 +10,8 @@
 .project img{
     width: 45%;
     max-height: 25rem;
+
+    box-shadow: 1px 1px 5px var(--main-dark);
 }
 
 .project .textBox{
