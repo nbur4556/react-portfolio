@@ -1,15 +1,13 @@
 .project{
     display: flex;
     flex-direction: row;
-
-    margin: 1rem;
 }
 
 .project:nth-of-type(odd) {
     flex-direction: row-reverse;
 }
 
-.project .textBox{
+.project .textBox, .project img{
     margin: 1rem;
 }
 
