@@ -3,10 +3,48 @@
     flex-direction: row;
 }
 
+.project .textBox, .project img{
+    margin: 4rem 1rem;
+}
+
+.project img{
+    width: 45%;
+    max-height: 25rem;
+
+    box-shadow: 1px 1px 5px var(--main-dark);
+}
+
+.project .textBox{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.project .textBox h3{
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.project .textBox p{
+    flex-grow: 2;
+    text-align: justify;
+    font-size: 1.2rem;
+}
+
+.project .textBox div{
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+.project .textBox a{
+    font-weight: bold;
+}
+
 .project:nth-of-type(odd) {
     flex-direction: row-reverse;
 }
 
-.project img{
-    width: 40%;
+.project:nth-of-type(odd) .textBox{
+    align-items: flex-end;
 }
