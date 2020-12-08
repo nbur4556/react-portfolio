@@ -9,8 +9,10 @@ const ProjectPreview = props => {
         <section className="project">
             <TextBox title={props.projectTitle}>
                 <p>{props.projectDescription}</p>
-                <a href={props.deployLink} target="_blank" rel="noreferrer">Page</a>
-                <a href={props.repoLink} target="_blank" rel="noreferrer">Repository</a>
+                <div>
+                    <a href={props.deployLink} target="_blank" rel="noreferrer">Page</a>
+                    <a href={props.repoLink} target="_blank" rel="noreferrer">Repository</a>
+                </div>
             </TextBox>
 
             <img src={props.imageSrc} alt={props.imageAltText} />
