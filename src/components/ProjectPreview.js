@@ -10,7 +10,7 @@ const ProjectPreview = props => {
             <TextBox title={props.projectTitle}>
                 <p>{props.projectDescription}</p>
                 <div>
-                    <a href={props.deployLink} target="_blank" rel="noreferrer">Page</a>
+                    <a href={props.deployLink} target="_blank" rel="noreferrer">Website</a>
                     <a href={props.repoLink} target="_blank" rel="noreferrer">Repository</a>
                 </div>
             </TextBox>

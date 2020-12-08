@@ -4,7 +4,7 @@
 }
 
 .project .textBox, .project img{
-    margin: 1rem;
+    margin: 4rem 1rem;
 }
 
 .project img{
@@ -31,6 +31,10 @@
     display: flex;
     justify-content: space-evenly;
     width: 100%;
+}
+
+.project .textBox a{
+    font-weight: bold;
 }
 
 .project:nth-of-type(odd) {
