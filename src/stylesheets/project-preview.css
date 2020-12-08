@@ -36,3 +36,7 @@
 .project:nth-of-type(odd) {
     flex-direction: row-reverse;
 }
+
+.project:nth-of-type(odd) .textBox{
+    align-items: flex-end;
+}
