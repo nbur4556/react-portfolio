@@ -20,9 +20,11 @@
 
 .project .textBox h3{
     font-size: 2rem;
+    margin-bottom: 1rem;
 }
 
 .project .textBox p{
+    flex-grow: 2;
     text-align: justify;
     font-size: 1.2rem;
 }
