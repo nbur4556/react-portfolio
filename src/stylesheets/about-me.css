@@ -18,14 +18,14 @@
     left: -3rem;
 
     transform: scaleX(-1);
-    width: 50rem;
+    width: 45rem;
 }
 
 .image-container .accent-box{
     position: absolute;
     bottom: .5rem;
-    width: 36rem;
-    height: 40rem;
+    width: 32rem;
+    height: 34rem;
     background-color: var(--main-accent);
 }
 
