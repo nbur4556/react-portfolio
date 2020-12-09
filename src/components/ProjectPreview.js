@@ -1,5 +1,8 @@
 import React from 'react';
+
+// Assets
 import '../stylesheets/project-preview.css';
+import '../stylesheets/project-preview-responsive.css';
 
 // Components
 import TextBox from './TextBox.js';

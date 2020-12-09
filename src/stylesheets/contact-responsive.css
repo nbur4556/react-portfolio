@@ -1,0 +1,14 @@
+@media(max-width: 1100px){
+    .contact-page{
+        flex-direction: column;
+    }
+
+    .contact-page form{
+        width: 90vw;
+        min-width: 20rem;
+    }
+
+    .contact-page .textBox{
+        padding: 1rem 0;
+    }
+}

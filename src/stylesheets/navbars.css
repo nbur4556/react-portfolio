@@ -3,13 +3,13 @@
     flex-direction: row;
 
     padding: 1em 2em;
+    max-width: 100%;
 
     background-color: var(--main-dark);
-    
 }
 
 .navbar h1{
-    margin: 0 5em 0 0;
+    margin: 0 7rem 0 0;
     font-family: 'Oxygen', sans-serif;
     font-size: 1.8em;
 
@@ -23,17 +23,20 @@
 }
 
 .navbar li{
-    margin: 0 10em 0 0;
-
-    font-family: 'Puritan', sans-serif;
+    margin: 0 10rem 0 0;
 }
 
 .navbar .pagelink{
     color: var(--main-white);
     text-decoration: none;
+    font-family: 'Puritan', sans-serif;
 }
 
 .navbar .pagelink:hover{
+    color: var(--main-accent);
+}
+
+.navbar .pagelink:active{
     color: var(--main-accent);
 }
 

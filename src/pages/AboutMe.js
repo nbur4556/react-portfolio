@@ -2,6 +2,7 @@ import React from 'react';
 
 // Assets
 import '../stylesheets/about-me.css';
+import '../stylesheets/about-me-responsive.css'
 import profPic from '../assets/images/prof-pic.png';
 
 // Components
