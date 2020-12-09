@@ -6,6 +6,9 @@ import '../stylesheets/navbars.css';
 import '../stylesheets/navbars-responsive.css';
 import resume from '../assets/web-dev-resume.pdf';
 
+// Components
+import HamburgerMenu from './HamburgerMenu.js';
+
 const Header = () => {
     return (
         <nav className="navbar">
@@ -19,6 +22,7 @@ const Header = () => {
                 {/* Link to Resume Opens PDF in New Tab */}
                 <a className="pagelink" href={resume} target="_blank" rel="noreferrer"><li>Resume</li></a>
             </ul>
+            <HamburgerMenu />
         </nav>
     );
 }
