@@ -1,5 +1,6 @@
 import React from 'react';
 import '../stylesheets/contact.css';
+import '../stylesheets/contact-responsive.css';
 
 // Component
 import TextBox from '../components/TextBox.js';
