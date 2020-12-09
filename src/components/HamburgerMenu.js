@@ -1,9 +1,14 @@
 import React from 'react';
+import '../stylesheets/hamburger-menu.css';
 
 const HamburgerMenu = () => {
     return (
-        <section>
-            Hamburger Menu
+        <section className="hamburger-menu">
+            <div className="hamburger-icon">
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
 
             <ul className="menulinks">
                 <li>Link1</li>
