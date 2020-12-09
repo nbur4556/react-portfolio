@@ -1,0 +1,11 @@
+@media(max-width: 950px){
+    .navbar .groupedlinks{
+        display:none;
+    }
+}
+
+@media(max-width: 500px){
+    .navbar ul{
+        display:none;
+    }
+}

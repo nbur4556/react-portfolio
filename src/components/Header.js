@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 
 // Assets
 import '../stylesheets/navbars.css';
+import '../stylesheets/navbars-responsive.css';
 import resume from '../assets/web-dev-resume.pdf';
 
 const Header = () => {
@@ -10,7 +11,7 @@ const Header = () => {
         <nav className="navbar">
             {/* Main Link to Landing Page */}
             <Link className="pagelink" to="/"><h1>Nick Burt</h1></Link>
-            <ul>
+            <ul className="groupedlinks">
                 {/* Links to Website Pages */}
                 <Link className="pagelink" to="/portfolio"><li>Portfolio</li></Link>
                 <Link className="pagelink" to="/contact"><li>Contact</li></Link>
