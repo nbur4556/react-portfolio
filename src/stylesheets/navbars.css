@@ -24,16 +24,19 @@
 
 .navbar li{
     margin: 0 10rem 0 0;
-
-    font-family: 'Puritan', sans-serif;
 }
 
 .navbar .pagelink{
     color: var(--main-white);
     text-decoration: none;
+    font-family: 'Puritan', sans-serif;
 }
 
 .navbar .pagelink:hover{
+    color: var(--main-accent);
+}
+
+.navbar .pagelink:active{
     color: var(--main-accent);
 }
 
