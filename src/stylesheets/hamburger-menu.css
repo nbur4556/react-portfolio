@@ -1,5 +1,5 @@
 .hamburger-icon{
-    display: flex;
+    display: none;
     flex-direction: column;
     justify-content: space-between;
 
@@ -17,4 +17,10 @@
 
 .hamburger-menu ul{
     display: none;
+}
+
+@media(max-width: 950px){
+    .hamburger-icon{
+        display: flex;
+    }
 }
