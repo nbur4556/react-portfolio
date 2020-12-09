@@ -28,13 +28,14 @@
         display:flex;
         flex-direction: column;
 
-        position:fixed;
-        right: 2rem;
+        position: absolute;
+        right: 1rem;
 
         background-color:var(--main-dark);
     }
 
     .hamburger-menu .show-dropdown li{
-        padding: 4rem;
+        margin: 0;
+        padding: 2rem 4rem;
     }
 }
