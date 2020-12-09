@@ -9,5 +9,13 @@
     .image-container{
         display:none;
     }
+
+    .about-page .textBox{
+        justify-content: flex-start;
+    }
+
+    .about-page .textBox p{
+        width: 100%;
+    }
 }
 
