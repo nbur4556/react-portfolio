@@ -1,4 +1,12 @@
 @media(max-width: 950px){
+    .navbar{
+        justify-content: space-between;
+    }
+
+    .navbar h1{
+        margin: 0;
+    }
+
     .navbar .groupedlinks{
         display:none;
     }

@@ -10,7 +10,7 @@ const HamburgerMenu = () => {
                 <div></div>
             </div>
 
-            <ul className="menulinks">
+            <ul>
                 <li>Link1</li>
                 <li>Link2</li>
             </ul>

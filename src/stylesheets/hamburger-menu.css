@@ -3,8 +3,8 @@
     flex-direction: column;
     justify-content: space-between;
 
-    width: 3rem;
-    height:2rem;
+    width: 2.5rem;
+    height:100%;
 }
 
 .hamburger-icon div{
@@ -13,4 +13,8 @@
     height: 15%;
 
     border-radius: 20px;
+}
+
+.hamburger-menu ul{
+    display: none;
 }
