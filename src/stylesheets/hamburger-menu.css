@@ -15,12 +15,26 @@
     border-radius: 20px;
 }
 
-.hamburger-menu .hide-dropdown{
+.hamburger-menu .hide-dropdown, .hamburger-menu .show-dropdown{
     display: none;
 }
 
 @media(max-width: 950px){
     .hamburger-icon{
         display: flex;
+    }
+
+    .hamburger-menu .show-dropdown{
+        display:flex;
+        flex-direction: column;
+
+        position:fixed;
+        right: 2rem;
+
+        background-color:var(--main-dark);
+    }
+
+    .hamburger-menu .show-dropdown li{
+        padding: 4rem;
     }
 }
