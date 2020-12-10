@@ -22,15 +22,15 @@ function App() {
         <Header />
 
         {/* Landing Page */}
-        <Route exact path="/">
+        <Route exact path="/react-portfolio">
           <AboutMe />
         </Route>
         {/* Portfolio Page */}
-        <Route exact path="/portfolio">
+        <Route exact path="/react-portfolio/portfolio">
           <Portfolio />
         </Route>
         {/* Contact Page */}
-        <Route exact path="/contact">
+        <Route exact path="/react-portfolio/contact">
           <Contact />
         </Route>
 
