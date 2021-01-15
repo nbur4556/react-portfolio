@@ -16,8 +16,6 @@ My portfolio displaying my information, projects, and contact details. Each proj
 * [Usage](#Usage)
 * [Technologies](#Technologies)
 * [License](#License)
-* [Contribution](#Contribution)
-* [Tests](#Tests)
 * [Contact](#Contact)
 
 ## Installation
@@ -36,14 +34,6 @@ Navigate the website using the links in the navigation bar located at the top of
 ## License
 
 Responsive Portfolio is licensed under the [MIT](https://opensource.org/licenses/MIT) license.
-
-## Contribution
-
-N/A
-
-## Tests
-
-N/A
 
 ## Contact
 
