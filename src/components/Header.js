@@ -12,7 +12,7 @@ import MainNavLinks from './MainNavLinks.js';
 const Header = () => {
     return (
         <nav className="navbar">
-            <Link className="pagelink" to="/react-portfolio"><h1>Nick Burt</h1></Link>
+            <Link className="pagelink" to="/"><h1>Nick Burt</h1></Link>
             <MainNavLinks setClass="groupedlinks" />
             <HamburgerMenu />
         </nav>
