@@ -7,20 +7,32 @@ import '../stylesheets/contact-responsive.css';
 import TextBox from '../components/TextBox.js';
 
 const Contact = () => {
+    const sendContactForm = (e) => {
+        e.preventDefault();
+
+        console.log(e.target);
+
+        emailjs.sendForm('contact_service', 'contact_form', e.target, 'user_TfupibxZhsD5JbWBWN4rn')
+            .then(result => {
+                console.log(result);
+            })
+            .catch(err => {
+                console.log(err);
+            });
+    }
+
     return (
         <section className="contact-page">
             {/* Contact Form */}
             <TextBox>
-                <form>
+                <form onSubmit={sendContactForm}>
                     <label>Name</label>
-                    <input type="text" />
+                    <input type="text" name="from_name" />
                     <label>Email Address</label>
-                    <input type="text" />
+                    <input type="text" name="from_email" />
                     <label>Message</label>
-                    <textarea></textarea>
+                    <textarea name="message"></textarea>
                     <button type="submit">Submit</button>
-
-                    <p>Note: The contact form does not yet work. Please use the contact details.</p>
                 </form>
             </TextBox>
 
