@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import emailjs from 'emailjs-com';
 import '../stylesheets/contact.css';
 import '../stylesheets/contact-responsive.css';
@@ -7,25 +7,37 @@ import '../stylesheets/contact-responsive.css';
 import TextBox from '../components/TextBox.js';
 
 const Contact = () => {
-    const sendContactForm = (e) => {
+    const [formResult, setFormResult] = useState();
+
+    const handleSubmitForm = (e) => {
         e.preventDefault();
 
-        console.log(e.target);
-
+        // Send email
         emailjs.sendForm('contact_service', 'contact_form', e.target, 'user_TfupibxZhsD5JbWBWN4rn')
-            .then(result => {
-                console.log(result);
+            .then(() => {
+                handleClearForm("Thank you for contacting me! Your message has been received, and I will reply soon.", e);
             })
             .catch(err => {
-                console.log(err);
+                handleClearForm(err.text, e);
             });
+    }
+
+    const handleClearForm = (resultMessage, e) => {
+        for (let i = 0; i < e.target.children.length; i++) {
+            // Clear value if text or textarea
+            if (e.target.children[i].type === 'text' || e.target.children[i].type === 'textarea') {
+                e.target.children[i].value = null;
+            }
+        }
+
+        setFormResult(resultMessage);
     }
 
     return (
         <section className="contact-page">
             {/* Contact Form */}
             <TextBox>
-                <form onSubmit={sendContactForm}>
+                <form onSubmit={handleSubmitForm}>
                     <label>Name</label>
                     <input type="text" name="from_name" />
                     <label>Email Address</label>
@@ -33,6 +45,8 @@ const Contact = () => {
                     <label>Message</label>
                     <textarea name="message"></textarea>
                     <button type="submit">Submit</button>
+
+                    <p>{formResult}</p>
                 </form>
             </TextBox>
 
