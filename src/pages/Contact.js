@@ -1,4 +1,5 @@
-import React from 'react';
+import React, { useState } from 'react';
+import emailjs from 'emailjs-com';
 import '../stylesheets/contact.css';
 import '../stylesheets/contact-responsive.css';
 
@@ -6,20 +7,46 @@ import '../stylesheets/contact-responsive.css';
 import TextBox from '../components/TextBox.js';
 
 const Contact = () => {
+    const [formResult, setFormResult] = useState();
+
+    const handleSubmitForm = (e) => {
+        e.preventDefault();
+
+        // Send email
+        emailjs.sendForm('contact_service', 'contact_form', e.target, 'user_TfupibxZhsD5JbWBWN4rn')
+            .then(() => {
+                handleClearForm("Thank you for contacting me! Your message has been received, and I will reply soon.", e);
+            })
+            .catch(err => {
+                handleClearForm(err.text, e);
+            });
+    }
+
+    const handleClearForm = (resultMessage, e) => {
+        for (let i = 0; i < e.target.children.length; i++) {
+            // Clear value if text or textarea
+            if (e.target.children[i].type === 'text' || e.target.children[i].type === 'textarea') {
+                e.target.children[i].value = null;
+            }
+        }
+
+        setFormResult(resultMessage);
+    }
+
     return (
         <section className="contact-page">
             {/* Contact Form */}
             <TextBox>
-                <form>
+                <form onSubmit={handleSubmitForm}>
                     <label>Name</label>
-                    <input type="text" />
+                    <input type="text" name="from_name" />
                     <label>Email Address</label>
-                    <input type="text" />
+                    <input type="text" name="from_email" />
                     <label>Message</label>
-                    <textarea></textarea>
+                    <textarea name="message"></textarea>
                     <button type="submit">Submit</button>
 
-                    <p>Note: The contact form does not yet work. Please use the contact details.</p>
+                    <p>{formResult}</p>
                 </form>
             </TextBox>
 
