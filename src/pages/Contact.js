@@ -1,4 +1,5 @@
 import React from 'react';
+import emailjs from 'emailjs-com';
 import '../stylesheets/contact.css';
 import '../stylesheets/contact-responsive.css';
 
