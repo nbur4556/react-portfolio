@@ -59,7 +59,7 @@ const Portfolio = () => {
             image: imgCodeRefactor,
             imageAlt: "Code Refactor Homepage",
             deployLink: "https://nbur4556.github.io/code-refactor/",
-            repoLink: "https://github.com/nbur4556/code-refactor"
+            repoLink: "https://github.com/nbur4556/code-refactor",
         }
     ];
 
@@ -74,6 +74,7 @@ const Portfolio = () => {
                     imageAltText={project.imageAlt}
                     deployLink={project.deployLink}
                     repoLink={project.repoLink}
+                    caseStudyRoute={project.caseStudyRoute}
                 />
             })}
         </section>

@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 // Assets
 import '../stylesheets/project-preview.css';
@@ -15,6 +16,7 @@ const ProjectPreview = props => {
                 <div>
                     <a href={props.deployLink} target="_blank" rel="noreferrer">Website</a>
                     <a href={props.repoLink} target="_blank" rel="noreferrer">Repository</a>
+                    {(props.caseStudyRoute) ? <Link to={props.caseStudyRoute}>Case Study</Link> : null}
                 </div>
             </TextBox>
 
