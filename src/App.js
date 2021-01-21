@@ -8,6 +8,9 @@ import AboutMe from './pages/AboutMe.js';
 import Portfolio from './pages/Portfolio.js';
 import Contact from './pages/Contact.js';
 
+// Case Studies
+import SurveasyCaseStudy from './pages/case_studies/SurveasyCaseStudy';
+
 // Components
 import Header from './components/Header.js';
 import Footer from './components/Footer.js';
@@ -32,6 +35,12 @@ function App() {
         {/* Contact Page */}
         <Route exact path="/contact">
           <Contact />
+        </Route>
+
+        {/* Case Studies */}
+        {/* SurvEasy Case Study */}
+        <Route exact path="/portfolio/surveasy">
+          <SurveasyCaseStudy />
         </Route>
 
       </BrowserRouter>

@@ -19,7 +19,8 @@ const Portfolio = () => {
             image: imgSurvEasy,
             imageAlt: "SurvEasy Homepage",
             deployLink: 'https://surveasy.herokuapp.com',
-            repoLink: 'https://github.com/Sakiskid/Surveasy'
+            repoLink: 'https://github.com/Sakiskid/Surveasy',
+            caseStudyRoute: '/portfolio/surveasy'
         },
         {
             title: "Bucket Budget",
