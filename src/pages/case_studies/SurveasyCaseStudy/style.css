@@ -1,0 +1,46 @@
+.casestudy-page{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    column-gap: 2em;
+    row-gap: 4em;
+
+    margin: auto;
+    width: 85vw;
+}
+
+img{
+    grid-column: span 2;
+    width: 100%;
+}
+
+.textBox{
+    grid-column: span 2;
+}
+
+.small-element{ grid-column: span 1; }
+
+.large-element{ grid-column: span 3; }
+
+.centered-image{
+    grid-column: 1 / span 4;
+
+    margin-top: 2rem;
+    width: 100%;
+}
+
+.centered-textbox{
+    grid-column: 1 / span 4;
+}
+
+.textBox p{
+    padding: 1rem;
+}
+
+.textBox ul{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+
+    height: 100%;
+}

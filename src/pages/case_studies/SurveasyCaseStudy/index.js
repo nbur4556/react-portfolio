@@ -1,4 +1,5 @@
 import React from 'react';
+import './style.css';
 
 // Components
 import TextBox from '../../../components/TextBox';
@@ -11,12 +12,12 @@ import imageSignin from '../../../assets/images/project-secondary-surveasy-signi
 
 const SurveasyCaseStudy = () => {
     return (
-        <section>
+        <section className='casestudy-page'>
             {/* Main Image */}
-            <img src={imageMain} alt="SurvEasy landing page." />
+            <img className="centered-image" src={imageMain} alt="SurvEasy landing page." />
 
             {/* Main Description */}
-            <TextBox>
+            <TextBox className="centered-textbox">
                 <p>
                     SurvEasy makes it easy to know what your target market is thinking. The application provides
                     a simple solution for creating and providing surveys to your intended audience. This project
@@ -26,10 +27,7 @@ const SurveasyCaseStudy = () => {
                     link, and data and analytics from the surveys are provided using Chart.js to display on the
                     front end.
                 </p>
-            </TextBox>
 
-            {/* Reason for the project */}
-            <TextBox>
                 <p>
                     This project was created in recognition of the need for simple and accessible surveys throughout
                     all aspects of business. You'll find these surveys in marketing, research, development, customer
@@ -38,8 +36,11 @@ const SurveasyCaseStudy = () => {
                 </p>
             </TextBox>
 
+            {/* Taking a survey image */}
+            <img className="large-element" src={imageTakeSurvey} alt="Display for taking a SurvEasy survey." />
+
             {/* Technologies Used */}
-            <TextBox>
+            <TextBox className="small-element">
                 <ul>
                     <li>React</li>
                     <li>Sass</li>
@@ -51,11 +52,8 @@ const SurveasyCaseStudy = () => {
                 </ul>
             </TextBox>
 
-            {/* Taking a survey image */}
-            <img src={imageTakeSurvey} alt="Display for taking a SurvEasy survey." />
-
             {/* Taking a survey */}
-            <TextBox>
+            <TextBox className="centered-textbox">
                 <p>
                     Providing a survey is simple. You are given a direct link to your survey that you can send to your
                     clients or customer base. When navigating to the link, they will be presented with easy an easy to
@@ -64,10 +62,10 @@ const SurveasyCaseStudy = () => {
             </TextBox>
 
             {/* Graphs, charts and analytics image */}
-            <img src={imageAnalytics} alt="Graphs and charts for survey results." />
+            <img className="small-element" src={imageAnalytics} alt="Graphs and charts for survey results." />
 
             {/* Graphs, charts and analytics */}
-            <TextBox>
+            <TextBox className="large-element">
                 <p>
                     It is important to accurately represent the survey results to SurvEasy users. Chart.js was used to
                     display bar graphs and pie charts. From here, the user can easily compare and study answers from their
@@ -75,11 +73,8 @@ const SurveasyCaseStudy = () => {
                 </p>
             </TextBox>
 
-            {/* Project security and validation image */}
-            <img src={imageSignin} alt="Surveasy sign in form." />
-
             {/* Project security and validation */}
-            <TextBox>
+            <TextBox className="large-element">
                 <p>
                     Security was given high priority. When creating a SurvEasy account, you can be sure that your credentials
                     are securely encrypted. We do not store your password in plain text. Any access to data from the account
@@ -87,8 +82,11 @@ const SurveasyCaseStudy = () => {
                 </p>
             </TextBox>
 
+            {/* Project security and validation image */}
+            <img className="small-element" src={imageSignin} alt="Surveasy sign in form." />
+
             {/* Going Forward */}
-            <TextBox>
+            <TextBox className="centered-textbox">
                 <p>
                     There are a few major features that will be included in the future of SurvEasy development. First, we want
                     to expand the types of questions available to include in our surveys. While simple 'select one' type questions
