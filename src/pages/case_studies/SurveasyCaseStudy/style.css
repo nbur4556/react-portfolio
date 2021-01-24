@@ -4,7 +4,7 @@
     column-gap: 2em;
     row-gap: 4em;
 
-    margin: auto;
+    margin: 2rem auto;
     width: 85vw;
 }
 
@@ -26,7 +26,6 @@ img{
 .centered-image{
     grid-column: 1 / span 4;
 
-    margin-top: 2rem;
     width: 100%;
 }
 
