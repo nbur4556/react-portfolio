@@ -16,7 +16,7 @@ const ProjectPreview = props => {
                 <div>
                     <a href={props.deployLink} target="_blank" rel="noreferrer">Website</a>
                     <a href={props.repoLink} target="_blank" rel="noreferrer">Repository</a>
-                    {(props.caseStudyRoute) ? <Link to={props.caseStudyRoute}>Case Study</Link> : null}
+                    {(props.caseStudyRoute) ? <Link to={props.caseStudyRoute}>Details</Link> : null}
                 </div>
             </TextBox>
 
