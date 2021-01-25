@@ -16,7 +16,7 @@ h1, h2, h3{
     font-family: 'Orienta', sans-serif;
 }
 
-p, a, input, textarea{
+p, a, li, input, textarea{
     font-family: 'Oxygen', sans-serif;
     font-size: 1.2rem;
 }
