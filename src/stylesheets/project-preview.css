@@ -31,6 +31,15 @@
     font-size: 1.2rem;
 }
 
+.project .textBox ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    margin: 2rem 0;
+    width: 100%;
+}
+
 .project .textBox div{
     display: flex;
     justify-content: space-evenly;
