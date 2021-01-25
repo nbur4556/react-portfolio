@@ -13,7 +13,11 @@ const ProjectPreview = props => {
         <section className="project">
             <TextBox title={props.projectTitle}>
                 <p>{props.projectDescription}</p>
-                <p>{props.projectTechnologies}</p>
+                <ul>
+                    {props.projectTechnologies.map((technology, index) => {
+                        return (<li key={index}>{technology}</li>)
+                    })}
+                </ul>
                 <div>
                     <a href={props.deployLink} target="_blank" rel="noreferrer">Website</a>
                     <a href={props.repoLink} target="_blank" rel="noreferrer">Repository</a>
