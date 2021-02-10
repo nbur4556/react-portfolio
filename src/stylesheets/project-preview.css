@@ -3,14 +3,17 @@
     flex-direction: row;
 }
 
-.project .textBox, .project img{
+.project .textBox, .project picture{
     margin: 4rem 1rem;
 }
 
-.project img{
-    width: 45%;
-    max-height: 25rem;
+.project picture{
+    width: 200%;
+}
 
+.project img{
+    width: 100%;
+    max-height: 25rem;
     box-shadow: 1px 1px 5px var(--main-dark);
 }
 
