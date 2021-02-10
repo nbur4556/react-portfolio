@@ -26,7 +26,7 @@ const ProjectPreview = props => {
             </TextBox>
 
             <picture>
-                <source srcset={props.imageSrcCompressed} />
+                <source type="image/avif" srcSet={props.imageSrcCompressed} />
                 <img src={props.imageSrc} alt={props.imageAltText} />
             </picture>
 
