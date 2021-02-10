@@ -17,7 +17,7 @@ const AboutMe = () => {
             <div className="image-container">
                 <div className="accent-box"></div>
                 <picture>
-                    <source srcset={profPicWebp} />
+                    <source type="image/webp" srcSet={profPicWebp} />
                     <img src={profPicPng} alt="My profile" />
                 </picture>
 
