@@ -3,7 +3,8 @@ import React from 'react';
 // Assets
 import '../stylesheets/about-me.css';
 import '../stylesheets/about-me-responsive.css'
-import profPic from '../assets/images/prof-pic.png';
+import profPicPng from '../assets/images/prof-pic.png';
+import profPicWebp from '../assets/images/prof-pic.webp';
 
 // Components
 import TextBox from '../components/TextBox.js';
@@ -15,7 +16,11 @@ const AboutMe = () => {
 
             <div className="image-container">
                 <div className="accent-box"></div>
-                <img src={profPic} alt="My profile" />
+                <picture>
+                    <source srcset={profPicWebp} />
+                    <img src={profPicPng} alt="My profile" />
+                </picture>
+
             </div>
 
             <TextBox className="message">
