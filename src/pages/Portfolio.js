@@ -19,7 +19,7 @@ const Portfolio = () => {
     const projects = [
         {
             title: "Dev Issue Tracker",
-            description: "Dev issue tracker is a resource for organizing bugs, issues, and features on development projects.",
+            description: "Dev issue tracker is a resource for organizing bugs, issues, and features on development projects. The application features robust state management implementing React's Context API, making state easily accessible across the various components of the project. ",
             technologies: ["React", "Sass", "NodeJS", "Express", "Mongoose", "JWT"],
             image: imgDevIssue,
             imageCompressed: imgDevIssueCompressed,
