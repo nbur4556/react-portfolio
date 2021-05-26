@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.02ce5746.chunk.css",
-    "main.js": "/static/js/main.0f71aa29.chunk.js",
-    "main.js.map": "/static/js/main.0f71aa29.chunk.js.map",
+    "main.js": "/static/js/main.bf2e288d.chunk.js",
+    "main.js.map": "/static/js/main.bf2e288d.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.0197b26b.js",
     "runtime-main.js.map": "/static/js/runtime-main.0197b26b.js.map",
     "static/js/2.f206d0be.chunk.js": "/static/js/2.f206d0be.chunk.js",
@@ -16,18 +16,18 @@
     "static/media/project-main-bucket-budget.dd89d1b6.avif": "/static/media/project-main-bucket-budget.dd89d1b6.avif",
     "static/media/project-main-covid-city-limits.4106f3cb.png": "/static/media/project-main-covid-city-limits.4106f3cb.png",
     "static/media/project-main-covid-city-limits.60ca7d4d.avif": "/static/media/project-main-covid-city-limits.60ca7d4d.avif",
+    "static/media/project-main-devissue.0444151b.avif": "/static/media/project-main-devissue.0444151b.avif",
+    "static/media/project-main-devissue.6e729db2.png": "/static/media/project-main-devissue.6e729db2.png",
     "static/media/project-main-surveasy.4cba32d8.png": "/static/media/project-main-surveasy.4cba32d8.png",
     "static/media/project-main-surveasy.b36b79a8.avif": "/static/media/project-main-surveasy.b36b79a8.avif",
     "static/media/project-main-weather-dashboard.28efa6e0.png": "/static/media/project-main-weather-dashboard.28efa6e0.png",
     "static/media/project-main-weather-dashboard.36d9c6d6.avif": "/static/media/project-main-weather-dashboard.36d9c6d6.avif",
-    "static/media/project-main-work-scheduler.50ebacf9.avif": "/static/media/project-main-work-scheduler.50ebacf9.avif",
-    "static/media/project-main-work-scheduler.8703e5ac.png": "/static/media/project-main-work-scheduler.8703e5ac.png",
     "static/media/web-dev-resume.d0dc7bda.pdf": "/static/media/web-dev-resume.d0dc7bda.pdf"
   },
   "entrypoints": [
     "static/js/runtime-main.0197b26b.js",
     "static/js/2.f206d0be.chunk.js",
     "static/css/main.02ce5746.chunk.css",
-    "static/js/main.0f71aa29.chunk.js"
+    "static/js/main.bf2e288d.chunk.js"
   ]
 }
