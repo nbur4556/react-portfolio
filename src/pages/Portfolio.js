@@ -4,6 +4,8 @@ import React from 'react';
 import ProjectPreview from '../components/ProjectPreview.js';
 
 // Assets
+import imgDevIssue from '../assets/images/project-main-devissue.png';
+import imgDevIssueCompressed from '../assets/images/project-main-devissue.avif';
 import imgSurvEasy from '../assets/images/project-main-surveasy.png';
 import imgSurvEasyCompressed from '../assets/images/project-main-surveasy.avif';
 import imgBucketBudget from '../assets/images/project-main-bucket-budget.jpg';
@@ -12,11 +14,19 @@ import imgCovidCity from '../assets/images/project-main-covid-city-limits.png';
 import imgCovidCityCompressed from '../assets/images/project-main-covid-city-limits.avif';
 import imgWeatherDash from '../assets/images/project-main-weather-dashboard.png';
 import imgWeatherDashCompressed from '../assets/images/project-main-weather-dashboard.avif';
-import imgWorkScheduler from '../assets/images/project-main-work-scheduler.png';
-import imgWorkSchedulerCompressed from '../assets/images/project-main-work-scheduler.avif';
 
 const Portfolio = () => {
     const projects = [
+        {
+            title: "Dev Issue Tracker",
+            description: "Dev issue tracker is a resource for organizing bugs, issues, and features on development projects. The application features robust state management implementing React's Context API, making state easily accessible across the various components of the project. ",
+            technologies: ["React", "Sass", "NodeJS", "Express", "Mongoose", "JWT"],
+            image: imgDevIssue,
+            imageCompressed: imgDevIssueCompressed,
+            imageAlt: "Dev Issue Tracking Homepage",
+            deployLink: 'https://devissuetracking.herokuapp.com/',
+            repoLink: 'https://github.com/nbur4556/issue_reporter'
+        },
         {
             title: "SurvEasy",
             description: "SurvEasy makes it easy to know what your target market is thinking. The application provides a simple solution for creating and providing surveys to your intended audience. This project is built with a React client, and Node JS for the server. In creating SurvEasy, I was able to provide a secure and full featured user authorization process involving encrypted passwords, and JSON web tokens for authentication. Users can create and provide surveys with a dedicated link, and data and analytics from the surveys are provided using Chart.js to display on the front end.",
@@ -56,16 +66,6 @@ const Portfolio = () => {
             imageAlt: "Weather Dashboard Homepage",
             deployLink: "https://nbur4556.github.io/weather-dashboard/",
             repoLink: "https://github.com/nbur4556/weather-dashboard"
-        },
-        {
-            title: "Workday Scheduler",
-            description: "The workday scheduler application can be used to store tasks throughout the day. The UI updates in real time, and takes advantage of local storage to save the users schedule to their device. Moment JS is used to incorporate dates and times.",
-            technologies: ["HTML5", "CSS3", "Javascript", "jQuery", "Bootstrap", "MomentJS"],
-            image: imgWorkScheduler,
-            imageCompressed: imgWorkSchedulerCompressed,
-            imageAlt: "Workday Scheduler Homepage",
-            deployLink: "https://nbur4556.github.io/day-planner/",
-            repoLink: "https://github.com/nbur4556/day-planner"
         }
     ];
 
