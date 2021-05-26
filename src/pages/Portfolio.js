@@ -4,6 +4,8 @@ import React from 'react';
 import ProjectPreview from '../components/ProjectPreview.js';
 
 // Assets
+import imgDevIssue from '../assets/images/project-main-devissue.png';
+import imgDevIssueCompressed from '../assets/images/project-main-devissue.avif';
 import imgSurvEasy from '../assets/images/project-main-surveasy.png';
 import imgSurvEasyCompressed from '../assets/images/project-main-surveasy.avif';
 import imgBucketBudget from '../assets/images/project-main-bucket-budget.jpg';
@@ -19,8 +21,9 @@ const Portfolio = () => {
             title: "Dev Issue Tracker",
             description: "Dev issue tracker is a resource for organizing bugs, issues, and features on development projects.",
             technologies: ["React", "Sass", "NodeJS", "Express", "Mongoose", "JWT"],
-            imageCompressed: null,
-            imageAlt: null,
+            image: imgDevIssue,
+            imageCompressed: imgDevIssueCompressed,
+            imageAlt: "Dev Issue Tracking Homepage",
             deployLink: 'https://devissuetracking.herokuapp.com/',
             repoLink: 'https://github.com/nbur4556/issue_reporter'
         },
